@@ -6,7 +6,7 @@ alert("Username e password sono obbligatori");
 }else{
  // chiamiamo il server per effettuare la verifica
  fetch('https://www.cacciaapi.altervista.org/login.php/loginIpad', {
-  method: 'POST', // o 'GET'
+  method: 'POST', // o 'GET' 
   headers: {
    'Content-Type':  'application/json',
 },
