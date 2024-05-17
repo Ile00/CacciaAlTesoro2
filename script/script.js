@@ -16,13 +16,12 @@ body: JSON.stringify({
  })
 })
  .then (response =› response.json()) // converte la risposta in JSON
- .then (data => console.log (data)) // stampa i dati
-  .then (data => {
-     console.log(data) ;
-     window.location.href ="game.html"; // Redirect to game.html
- })
-  catch(error) => {
-  console.error('Errore:',error);
- }):
-}
+ .then (data => {
+   console.log(data) ;
+   window.location.href ="game.html"; // Redirect to game.html
+  })
+  .catch((error) => {
+   console.error("Error:",error);
+  }):
+ }
 }                                   
