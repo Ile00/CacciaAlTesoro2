@@ -21,7 +21,7 @@ body: JSON.stringify({
    window.location.href ="game.html"; // Redirect to game.html
   })
   .catch((error) => {
-   console.error("Error:",error);
+    console.error("Error:",error);
   }):
  }
 }                                   
