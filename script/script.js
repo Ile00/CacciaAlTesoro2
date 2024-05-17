@@ -22,6 +22,6 @@ body: JSON.stringify({
   })
   .catch((error) => {
     console.error("Error:",error);
-  }):
+  });
  }
 }                                   
